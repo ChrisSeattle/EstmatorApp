@@ -117,7 +117,6 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                "django.core.context_processors.request",
             ],
         },
     },
@@ -129,7 +128,7 @@ WSGI_APPLICATION = 'estmator_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 DATABASES = {'default': dj_database_url.config(
-    default='postgres://localhost:5432/estmator'
+    default='postgres://chris:1234@localhost:5432/estmator'
     )
 }
 
