@@ -1,0 +1,7 @@
+- [x] Fork and clone the application we worked on in lecture today: repo
+- [x] Add collaborators to the forked repo
+- [x] Create a well named branch for today’s work
+Features
+- [ ] continue to refactor the application toward a fully functional application where you have the ability to see the full workflow of the app, including the admin console.
+Testing
+- [ ] Ensure that tests can be run, that they pass, and continue to add new tests based on the existing test suite within the application.
